@@ -1,5 +1,5 @@
 import sys
-
+import Piece
 
 class Board:
 
