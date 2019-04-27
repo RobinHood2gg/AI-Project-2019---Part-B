@@ -1,6 +1,5 @@
 import sys
 
-
 class Board:
 
 	RED = 'R'
@@ -46,7 +45,7 @@ class Board:
 						tiles[(i,j)] = 'B'
 					else:
 						tiles[(i,j)] = None
-						
+
 		return tiles
 
 	def generatePieces(): #helper function to generate pieces for all players
