@@ -1,6 +1,7 @@
 import sys
 
 class Piece:
+    
 	def __init__ (self, colour, row, column):
 		self.colour = colour
 		self.row = row
